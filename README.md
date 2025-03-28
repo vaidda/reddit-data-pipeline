@@ -13,7 +13,7 @@ A real-time data engineering pipeline that ingests top posts from Reddit, stream
 -  Fully containerized with Docker Compose
 -  Orchestrated with Airflow DAGs
 
-![System Design](docs/Image 2025-03-28 16_49_10.png)
+![System Design](docs/system-design.png)
 
 
 📦 Next To Do
@@ -26,8 +26,8 @@ A real-time data engineering pipeline that ingests top posts from Reddit, stream
 
  CI/CD pipeline with GitHub Actions
  
- ![Airflow](docs/Screenshot 2025-03-28 at 15.58.40.png)
+ ![Airflow](docs/airflow-ui.png)
  
  
- ![Superset](docs/Screenshot 2025-03-27 at 14.29.34.png)
+ ![Superset](docs/superset-ui.png)
  
