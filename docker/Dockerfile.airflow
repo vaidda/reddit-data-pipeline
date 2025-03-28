@@ -1,0 +1,9 @@
+FROM apache/airflow:2.7.3
+
+# Switch to airflow user
+USER airflow
+
+COPY requirements.txt .
+ENV NLTK_DATA=/home/airflow/nltk_data
+RUN pip install --no-cache-dir -r requirements.txt && \
+    python -m nltk.downloader -d $NLTK_DATA stopwords

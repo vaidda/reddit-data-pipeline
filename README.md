@@ -1,0 +1,33 @@
+# Reddit Streaming Data Pipeline
+
+A real-time data engineering pipeline that ingests top posts from Reddit, streams them through Kafka, enriches them with NLP, stores them in PostgreSQL, and visualizes metrics with Grafana and dashboards with Superset.
+
+## Features
+
+-  Fetches top Reddit posts from configurable subreddit
+-  Streams to Kafka using a producer
+-  Enriches data with keywords using NLTK
+-  Batch inserts into PostgreSQL
+-  Monitors Kafka consumer lag via Prometheus + Grafana
+-  Visualizes Reddit data trends with Superset dashboards
+-  Fully containerized with Docker Compose
+-  Orchestrated with Airflow DAGs
+
+![System Design](docs/Image 2025-03-28 16_49_10.png)
+
+
+📦 Next To Do
+
+ Add unit tests for producer/consumer
+
+ Deploy to the cloud
+
+ Add Slack alerts for DAG/task failures
+
+ CI/CD pipeline with GitHub Actions
+ 
+ ![Airflow](docs/Screenshot 2025-03-28 at 15.58.40.png)
+ 
+ 
+ ![Superset](docs/Screenshot 2025-03-27 at 14.29.34.png)
+ 

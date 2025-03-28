@@ -1,0 +1,36 @@
+__pycache__/
+*.py[cod]
+*.so
+*.pyc
+
+.venv/
+env/
+venv/
+
+*.log
+*.pid
+*.seed
+*.bak
+*.swp
+docker/*.env
+.env
+airflow/logs/
+airflow/__pycache__/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+pgdata/
+
+# Superset cache
+superset.db
+superset_home/
+
+# Python test cache
+.cache/
+.pytest_cache/
+
+# Docker Compose
+**/.mypy_cache
+
+stream_processing/consumer.py
