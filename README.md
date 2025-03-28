@@ -15,16 +15,6 @@ A real-time data engineering pipeline that ingests top posts from Reddit, stream
 
 ![System Design](docs/system-design.png)
 
-
-📦 Next To Do
-
- Add unit tests for producer/consumer
-
- Deploy to the cloud
-
- Add Slack alerts for DAG/task failures
-
- CI/CD pipeline with GitHub Actions
  
  ![Airflow](docs/airflow-ui.png)
  
